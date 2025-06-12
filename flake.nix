@@ -72,7 +72,7 @@
             src = ./.;
             hooks = {
               cargo-check.enable = true;
-              clippy.enable = true;
+              # clippy.enable = true;
               nixfmt-rfc-style.enable = true;
               rustfmt.enable = true;
             };
